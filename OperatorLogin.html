@@ -1,0 +1,44 @@
+<!--Megan Boyer-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Space Program Operator Login</title>
+</head>
+<!-- This is the link to the corresponding CSS file-->
+<link rel="stylesheet" href="OperatorLogin.css">
+
+<!-- This is the link to the corresponding JavaScript file.-->
+<script src="OperatorLogin.js"></script>
+
+<body>
+    <h1>
+        <!-- Here we have heading one, which I am using as a title at the top of the page.-->
+        UAT Space Program Operator Login
+    </h1>
+    <br> <br> 
+    <!-- Here we have where the user will see the status of their login-->
+    <p id="Status" class="LoginID"> Login status:</p>
+    <br>
+
+    <form id="Submission" onsubmit="return false">
+       
+    <!-- Here is where the user will type their first name.-->
+   First Name:<input type="text" id="firstName"style="border-radius: 200px;"/>
+    <br><br>
+
+    <!--Here is where the user will type their last name.-->
+    Last Name:    <input type="text" id="lastName" style="border-radius: 200px;"/>
+    <br><br>
+
+    <!--Here is where the user will type their badge number.-->
+    Badge Number:<input type="number" id="badgeNumber" style="border-radius: 200px;"/>
+    <br><br>
+
+    <!-- Here is the submission button that will run the function "check."-->
+    <input type="submit" style="border-radius: 200px;" onclick="check();"/>
+    </form>
+</body>
+</html>

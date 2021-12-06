@@ -1,0 +1,32 @@
+h1 {
+font-family: monospace; color: white; font-weight: bold;
+
+outline-style:double; 
+
+color:blueviolet;
+
+text-align:center;
+}
+body {
+    background-image:url("Astronaut-1.jpg");
+   
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+
+    font-family: monospace;
+
+    font-size: large;
+
+    color:whitesmoke;
+
+    text-align:center;
+}
+input {
+    border-color:blueviolet;
+
+    border-width: 4px;
+}
+p {
+    font-weight: bolder;
+}
